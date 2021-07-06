@@ -3,7 +3,7 @@ title{
 }
 .top-title{
     font-family: 'Bangers', cursive;
-    color: rgb(233, 96, 47);
+    color: rgb(235, 95, 44);
     font-size: 80px;
     text-align: center;
     background-color: rgb(248, 196, 190);
@@ -16,8 +16,12 @@ body{
 h1{
     font-size: 40px;
 }
+.top-text{
+    padding-top: 10%;
+}
 .unique-color{
-    color: rgb(235, 73, 14);
+    color: rgb(233, 96, 47);
+    font-weight: 700;
 }
 section{
     display: flex;
@@ -26,9 +30,17 @@ section{
     width: 50%;
     padding-left: 5%;
 }
-.top-text{
-    padding-top: 10%;
-}
 .first-half img{
     width: 85%;
+}
+.clickable-button{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: oblique;
+    background-image: linear-gradient(rgb(255, 232, 25), rgb(235, 74, 15));
+    padding: 7px 21px;
+    
+    border-radius: 15px;
 }
