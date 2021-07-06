@@ -2,7 +2,7 @@ title{
     display: none;
 }
 .top-title{
-    font-family: 'Bangers', cursive;
+    font-family: 'Ultra', serif;
     color: rgb(235, 95, 44);
     font-size: 80px;
     text-align: center;
@@ -58,11 +58,12 @@ border-radius: 20px;
 .about-me{
     background-image: url(images/background.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
-.recipe{
+.recipe-short-note{
     margin: auto;
     width: 50%;
-    padding: 10px;
+    padding: 5px;
     text-align: justify;
 }
 h2{
