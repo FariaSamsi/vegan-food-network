@@ -32,11 +32,10 @@ section{
 .recipe{
     display: flex;
 }
-}
 .first-half{
     width: 50%;
-    padding-left: 10%;
-    padding-right: 5%;
+    padding-left: 5%;
+    padding-right: 2%;
 }
 #top-image{
     width: 100%;
@@ -44,7 +43,7 @@ section{
 #bottom-image{
     width: 60%;
     height: 100%;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 .recipe-image{
     width: 30%;
