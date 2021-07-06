@@ -12,6 +12,7 @@ title{
 }
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 40px;
@@ -25,22 +26,33 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
+    margin-top: 30px;
 }
 .first-half{
     width: 50%;
     padding-left: 5%;
+    padding-right: 2%;
 }
-.first-half img{
-    width: 85%;
+#top-image{
+    width: 100%;
+}
+#bottom-image{
+    width: 60%;
+    height: 100%;
+    padding-left: 10%;
 }
 .clickable-button{
     text-decoration: none;
-    color: whitesmoke;
-    font-size: 15px;
-    font-weight: 700;
-    font-style: oblique;
-    background-image: linear-gradient(rgb(255, 232, 25), rgb(235, 74, 15));
-    padding: 7px 21px;
-    
-    border-radius: 15px;
+color: whitesmoke;
+font-size: 15px;
+font-weight: 700;
+font-style: oblique;
+background-image: linear-gradient(rgb(255, 232, 25), rgb(235, 74, 15));
+padding: 12px 25px;
+border-radius: 20px;
+}
+.about-me{
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
 }
